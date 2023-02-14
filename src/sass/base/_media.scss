@@ -1,0 +1,198 @@
+@media screen and (max-width:1199px) {
+    .main {
+        background-position: 30%;
+    }
+    .carusel {
+        .slider {
+            img {
+                width: 70%;
+                display: block;
+                margin: 0 auto;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:991px) {
+    .header {
+        &_link {
+            &_call {
+                a {
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+    .main {
+        background-position: 25%;
+        &_wrapper {
+            align-items: center;
+        }
+    }
+    .advantages {
+        &_wrapper {
+            &_item {
+                div {
+                    width: 90%;
+                }
+            }
+        }
+    }
+    .consultation {
+        .title {
+            text-align: center;
+        }
+        &_descr {
+            text-align: center;
+        }
+        .form-sub {
+            :nth-child(1) {
+                margin: 35px auto 0 auto;
+            }
+            input {
+                margin: 13px auto 0 auto;
+            }
+            .button {
+                display: block;
+                margin: 18px auto 0 auto;
+            } 
+        }
+    }
+    ul {
+        display: flex;
+        justify-content: center;
+    }
+    .slick-dots li {
+        position: relative;
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        margin: 0 5px;
+        padding: 0;
+        cursor: pointer;
+    }
+    
+    .slick-dots li button {
+        font-size: 0;
+        line-height: 0;
+        display: block;
+        width: 20px;
+        height: 20px;
+        padding: 10px 5px;
+        cursor: pointer;
+        color: transparent;
+        border: 0;
+        outline: none;
+        background: transparent;
+    }
+    
+    .slick-dots li button:before {
+        content: '•';
+        font-size: 22px;
+        line-height: 20px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 20px;
+        height: 20px;
+        text-align: center;
+        opacity: .25;
+        color: black;
+    }
+}
+@media screen and (max-width:767px) {
+    .header {
+        &_logo {
+            img {
+                width: 90%;
+            }
+        }
+        &_middletext {
+            &_names {
+                font-size: 12px;
+                margin-left: -25px;
+                &__size {
+                    font-size: 14px;
+                    text-align: center;
+                }
+            }
+        }
+    }
+    .advantages {
+        &_wrapper {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            &_item {
+                div {
+                    width: 100%;
+                }
+                img {
+                    margin-top: 20px;
+                }
+                &_title {
+                    margin-top: 16px;
+                }
+            }
+        }
+    }
+    .title {
+        font-size: 30px;
+    }
+
+}
+
+@media screen and (max-width:575px) {
+    .header {
+        &_middletext {
+            &_names {
+                display: none;
+            }
+        }
+        &_logo {
+            img {
+                width: 90%;
+            }
+        }
+        &_link {
+            &_call {
+                a {
+                    font-size: 11px;
+                }
+            }
+        }
+        .button {
+            font-size: 10px;
+            width: 112px;
+        }
+    }
+    .main {
+        &_title {
+            h1 {
+                font-size: 25px;
+            }
+            h3 {
+                font-size: 15px;
+                font-weight: 400;
+            }
+        }
+        &_icons {
+            justify-content: center;
+            &_subtitle {
+                width: 107px;
+            }
+        }
+    }
+    .consultation {
+        &_descr {
+            font-size: 17px;
+        }
+    }
+    .title {
+        font-size: 23px;
+        &_left {
+            font-size: 19px;
+        }
+    }
+}
+

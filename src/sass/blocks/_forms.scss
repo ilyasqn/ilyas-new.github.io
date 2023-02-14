@@ -1,0 +1,14 @@
+.form-sub {
+    :nth-child(1) {
+        margin-top: 35px;
+    }
+    input {
+        width: 302px;
+        height: 52px;
+        display: block;
+        margin-top: 13px;
+        padding: 0 21px;
+        border: none;
+        border-radius: 5px;
+    }
+}

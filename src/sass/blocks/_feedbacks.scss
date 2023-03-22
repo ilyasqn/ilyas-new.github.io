@@ -1,0 +1,38 @@
+.feedbacks {
+    padding-bottom: 70px;
+    &__item {
+        margin-top: 70px;
+        display: flex;
+        column-gap: 49px;
+        &__img {
+            align-self: flex-start;
+            img {
+                display: block;
+                border-radius: 50%;
+                width: 171px;
+                height: 171px;
+            }
+        }
+        &__description {
+            &__name {
+                font-size: 18px;
+                font-weight: 700;
+                span {
+                    margin-top: 5px;
+                    display: block;
+                    color: #646464;
+                    font-size: 14px;
+                    font-weight: 300;
+                }
+            }
+            &__text {
+                font-weight: 500;
+                margin-top: 10px;
+                font-size: 16px;
+                span {
+                    display: block;
+                }
+            }
+        }
+    }
+}

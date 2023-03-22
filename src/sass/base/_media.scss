@@ -58,6 +58,9 @@
             } 
         }
     }
+    .carusel {
+        min-height: 553px;
+    }
     ul {
         display: flex;
         justify-content: center;
@@ -91,13 +94,18 @@
         font-size: 22px;
         line-height: 20px;
         position: absolute;
-        top: 0;
+        top: 30px;
         left: 0;
         width: 20px;
         height: 20px;
         text-align: center;
         opacity: .25;
         color: black;
+    }
+    .catalog {
+        &__content {
+            justify-content: center;
+        }
     }
 }
 @media screen and (max-width:767px) {
@@ -139,7 +147,24 @@
     .title {
         font-size: 30px;
     }
+    .catalog {
+        &__caption {
+            margin-top: 48px;
+            flex-direction: column;
+            row-gap: 10px;
 
+        }
+    }
+    .feedbacks {
+        &__item {
+            &__description {
+                &__text {
+                    font-size: 13px;
+                }
+            }
+        }
+        
+    }
 }
 
 @media screen and (max-width:575px) {
@@ -192,6 +217,41 @@
         font-size: 23px;
         &_left {
             font-size: 19px;
+        }
+    }
+    .carusel {
+        min-height: 353px;
+    }
+    .feedbacks {
+        &__item {
+            flex-direction: column;
+            &__img {
+                margin: 0 auto;
+            }
+            &__description {
+                text-align: center;
+                &__name {
+                    margin-top: 10px;
+                }
+                &__text {
+                    margin: 10px auto 0 auto;
+                    max-width: 285px;
+                    font-size: 13px;                    
+                }
+            }
+            
+        }
+        
+    }
+    .footer {
+        &__info {
+            max-width: 100%;
+        }
+        &__address {
+            font-size: 18px;
+        }
+        &__phone {
+            font-size: 18px;
         }
     }
 }

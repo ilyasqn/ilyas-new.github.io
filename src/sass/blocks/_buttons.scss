@@ -1,5 +1,5 @@
 .button {
-    background-color: $my-red;
+    background-color: RGBA(230, 1, 1, 1);
     text-transform: uppercase;
     color: #fff;
     padding: 5px 10px;
@@ -8,9 +8,14 @@
     border-radius: 5px;
     font-size: 12px;
     font-weight: 500;
-    border-color: $my-red;
+    border-color: RGBA(230, 1, 1, 1);
     margin-top: 3px;
     border: none;
+    &:hover {
+        border:none;
+        background-color: $my-red;
+        transition: 0.5s linear;
+    }
     &_catalog {
         margin-top: 66px;
         font-size: 16px;
@@ -22,5 +27,9 @@
         width: 302px;
         height: 57px;
         font-size: 16px;
+    }
+    &_mini {
+        width: 133px;
+        height: 42px;
     }
 }

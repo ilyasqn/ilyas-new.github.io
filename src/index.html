@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
     <link rel="stylesheet" href="fonts/MuseoSansCyrl-300.woff">
     <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/animate.min.css">
     <link rel="stylesheet" href="css/style.min.css">
     <title>Document</title>
 </head>
@@ -16,7 +17,7 @@
             <header class="header">
                 <div class="header_wrapper">
                     <div class="header_logo">
-                        <a href=""><img src="img/logo/logo (1).png" alt="#"></a>
+                        <a href=""><img src="img/logo/logoo.png" alt="#"></a>
                     </div>
                     <div class="header_middletext">
                         <div class="header_middletext_names">Официальный представитель</div>
@@ -33,13 +34,13 @@
                     <h1>Подбор пульсометра</h1>
                     <h3>с учётом Вашего уровня подготовки</h3>
                 </div>
-                <div class="main_icons">
+                <div class="main_icons animate__animated animate__backInDown wow">
                     <div>
                         <img src="img/icons/1/timer.png" alt="#">
                         <div class="main_icons_subtitle">Время подбора: 10 минут</div>
                     </div>
                     <div>
-                        <img src="img/icons/1/delivery .png" alt="#">
+                        <img src="img/icons/1/delivery.png" alt="#">
                         <div class="main_icons_subtitle">Бесплатная доставка</div>
                     </div>
                     <div>
@@ -49,7 +50,7 @@
                 </div>
                 <div class="main_catalog">
                     <button data-modal="consultation" class="button button_catalog">заказать консултацию</button>
-                    <div>или<a href="#">перейти в каталог</a></div>
+                    <div>или<a href="#catalog">перейти в каталог</a></div>
                 </div>
             </div>
         </div>
@@ -59,17 +60,17 @@
             <h2 class="title">НАШИ ПРЕИМУЩЕСТВА</h2>
             <div class="advantages_wrapper">
                 <div class="advantages_wrapper_item">                
-                    <img src="img/icons/2/cup-removebg-preview.png" alt="#"></img>
+                    <img src="img/icons/2/cup-removebg-preview.png" alt="#">
                     <span class="advantages_wrapper_item_title">Делимся опытом</span>
                     <div>Наши сотрудники всегда готовы поделиться своим опытом, так как сами бегают полумарафоны, переплыли Босфор, готовятся к соревнованиям по триатлону!</div>
                 </div>
                 <div class="advantages_wrapper_item">     
-                    <img src="img/icons/2/heart-removebg-preview.png" alt="#"></img>
+                    <img class="advantages_wrapper_item__icon_animated" src="img/icons/2/heart-removebg-preview.png" alt="#">
                     <span class="advantages_wrapper_item_title">Заботимся о здоровье</span>
                     <div> Мы работаем для того, чтобы Ваши занятия спортом шли на пользу Вашему здоровью и были в радость Вам и Вашим близким!</div>
                 </div>
                 <div class="advantages_wrapper_item">
-                    <img src="img/icons/2/shoe-removebg-preview.png" alt="#"></img>
+                    <img src="img/icons/2/shoe-removebg-preview.png" alt="#">
                     <span class="advantages_wrapper_item_title">Учим бегать</span>
                     <div>Помогаем с обучением правильной технике бега! Дружим с крупнейшей школой бега в России - <span class="special">I LOVE RUNNING.</span></div>
                 </div>
@@ -88,7 +89,7 @@
             </form>
         </div>
     </section>
-    <section class="carusel">
+    <div class="carusel">
         <div class="container">
             <div class="slider">
                 <div><img src="img/three/main_polar.png" alt=""></div>
@@ -96,8 +97,8 @@
                 <div><img src="img/three/polars-removebg-preview.png" alt=""></div>
             </div>
         </div>
-    </section>
-    <section class="catalog">
+    </div>
+    <section id="catalog" class="catalog">
         <div class="container">
             <h2 class="title">каталог пульсометров</h2>
                 <ul class="catalog__caption">
@@ -106,7 +107,7 @@
                     <li class="catalog__caption__list"><div>для триатлона</div></li>
                 </ul>
             <div class="catalog__content catalog__content_active">
-                <div class="catalog-item">
+                <div class="catalog-item animate__animated animate__fadeIn wow" data-wow-delay="0.3s">
                     <div class="catalog-item__wrapper">
                         <div class="catalog-item__content catalog-item__content_active">
                             <img src="img/three/polar_block.png" alt="#">
@@ -133,7 +134,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="catalog-item">
+                <div class="catalog-item animate__animated animate__fadeIn wow" data-wow-delay="0.3s">
                     <div class="catalog-item__wrapper">
                         <div class="catalog-item__content catalog-item__content_active">
                             <img src="img/three/polar_block.png" alt="#">
@@ -160,7 +161,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="catalog-item">
+                <div class="catalog-item animate__animated animate__fadeIn wow" data-wow-delay="0.4s">
                     <div class="catalog-item__wrapper">
                         <div class="catalog-item__content catalog-item__content_active">
                             <img src="img/three/polar_block.png" alt="#">
@@ -187,7 +188,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="catalog-item">
+                <div class="catalog-item animate__animated animate__fadeIn wow" data-wow-delay="0.5s">
                     <div class="catalog-item__wrapper">
                         <div class="catalog-item__content catalog-item__content_active">
                             <img src="img/three/polar_block.png" alt="#">
@@ -214,7 +215,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="catalog-item">
+                <div class="catalog-item animate__animated animate__fadeIn wow" data-wow-delay="0.7s">
                     <div class="catalog-item__wrapper">
                         <div class="catalog-item__content catalog-item__content_active">
                             <img src="img/three/polar_block.png" alt="#">
@@ -241,7 +242,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="catalog-item">
+                <div class="catalog-item animate__animated animate__fadeIn wow" data-wow-delay="0.8s">
                     <div class="catalog-item__wrapper">
                         <div class="catalog-item__content catalog-item__content_active">
                             <img src="img/three/polar_block.png" alt="#">
@@ -409,7 +410,7 @@
         </div>
     </section>
     <footer class="footer">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2225.8522195170453!2d76.84127113526057!3d43.225799504440694!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x388369cc32ea501b%3A0x66fbe3734b9fb835!2z0J7QsdGJ0LXQvtCx0YDQsNC30L7QstCw0YLQtdC70YzQvdCw0Y8g0KjQutC-0LvQsCDihJYxNDE!5e0!3m2!1sru!2skz!4v1677918453917!5m2!1sru!2skz" width="100%" height="630" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2225.8522195170453!2d76.84127113526057!3d43.225799504440694!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x388369cc32ea501b%3A0x66fbe3734b9fb835!2z0J7QsdGJ0LXQvtCx0YDQsNC30L7QstCw0YLQtdC70YzQvdCw0Y8g0KjQutC-0LvQsCDihJYxNDE!5e0!3m2!1sru!2skz!4v1677918453917!5m2!1sru!2skz" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         <div class="footer__info">
             <address class="footer__address">Алматы, Микрорайон Жетысу-2, 8В</address>
             <a href="tel:+77273736743" class="footer__phone">+7 (727) 373-67-43</a>
@@ -451,11 +452,16 @@
         </div>
     </div>
 
+    <a href="#" class="pageup">
+        <img src="img/icons/free-icon-up-arrow-2626996.png" alt="up">
+    </a>
+
     <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script src="js/slick.min.js"></script>
     <script src="js/jquery.validate.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/jquery.maskedinput@1.4.1/src/jquery.maskedinput.min.js" type="text/javascript"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery.maskedinput@1.4.1/src/jquery.maskedinput.min.js"></script>
+    <script src="js/wow.min.js"></script>
     <script src="js/script.js"></script>
 </body> 
 </html>

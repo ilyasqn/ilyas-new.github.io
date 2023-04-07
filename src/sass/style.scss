@@ -1,6 +1,17 @@
+//libs
+
+@import "libs/animate.min";
+@import "libs/bootstrap-reboot.min";
+@import "libs/slick";
+
+//base
+
 @import "base/fonts";
 @import "base/variables";
 @import "base/animations.scss";
+
+//blocks
+
 @import "blocks/main";
 @import "blocks/buttons";
 @import "blocks/header";

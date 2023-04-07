@@ -146,6 +146,8 @@
         &__list {
             position: absolute;
             top: 10%;
+            display: flex;
+            flex-direction: column;
             &__sublist {
                 margin-bottom: 30px;
                 font-weight: 500;
